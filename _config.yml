@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Junu Kim
-title: Ms-PhD Student
+title: Ph.D Student
 email: kjune0322@kaist.ac.kr
 website: starmpcc.github.io
 
@@ -52,6 +52,12 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 content:
+  - title: Lecture
+    layout: list
+    content:
+      - layout: top-middle
+        title: "KoSAIM 2023 Summer School Hands-on Session: Transformer"
+        link: https://github.com/starmpcc/KoSAIM2023-Transformer
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
