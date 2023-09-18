@@ -30,10 +30,10 @@ github_username:  starmpcc
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -78,7 +78,7 @@ content:
             url: https://github.com/starmpcc/CAMEL
           - title:  CAMEL Demo
             url: https://starmpcc-camel-demo-demo-i7ajms.streamlit.app/
-            icon: fab fa-labtop
+            icon: fas fa-laptop
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -87,6 +87,22 @@ content:
   - title: Papers # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: |
+          Asclepius: Publicly Shareable Clinical Large Language Model Built on Synthetic Clinical Notes
+        description: | 
+          Sunjun Kweon\*, Junu Kim\*, Jiyoun Kim, Sujeong Im, Eunbyeol Cho, Seongsu Bae, Jungwoo Oh, Gyubok Lee, Jong Hak Moon, Seng Chan You, Seungjin Baek, Chang Hoon Han, Yoon Bin Jung, Yohan Jo, Edward Choi
+          
+          \* equal contribution
+        link: https://arxiv.org/abs/2309.00237
+        additional_links:
+        - title: Asclepius
+          icon: fab fa-github
+          url: https://github.com/starmpcc/Asclepius
+        - title: Model
+          icon: fas fa-database
+          url: https://huggingface.co/starmpcc
+
       - layout: top-middle
         title: Universal EHR Federated Learning Framework
         description: |
