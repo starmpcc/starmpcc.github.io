@@ -27,7 +27,7 @@ github_username:  starmpcc
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+orcid_username: 0009-0001-9522-0756
 
 # Additional icon links
 # additional_links:
@@ -46,44 +46,12 @@ github_username:  starmpcc
 
 # About Section
 # about_title: About Me
-# about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Junu Kim, a Ph.D student in KAIST Graduate School of AI. I'm interested in machine learning for healthcare (ML4H).
 
 
 content:
-  - title: Lecture
-    layout: list
-    content:
-      - layout: top-middle
-        title: "KoSAIM 2023 Summer School Hands-on Session: Transformer"
-        link: https://github.com/starmpcc/KoSAIM2023-Transformer
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: "CAMEL: Clinically Adapted Model Enhanced from LLaMA"
-        description: |
-          Sunjun Kweon\*, __Junu Kim__\*, Seongsu Bae\*\*, Eunbyeol Cho\*\*, Sujeong Im\*\*, Jiyoun Kim\*\*, Gyubok Lee\*\*, JongHak Moon\*\*, JeongWoo Oh\*\*, Edward Choi
-
-          \* equal contribution
-
-          \*\* alphabetical order
-
-        link: https://starmpcc.github.io/CAMEL/
-        # link_text: Project Website
-        additional_links:
-          - title:  CAMEL
-            icon: fab fa-github
-            url: https://github.com/starmpcc/CAMEL
-          - title:  CAMEL Demo
-            url: https://starmpcc-camel-demo-demo-i7ajms.streamlit.app/
-            icon: fas fa-laptop
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-           Clinically Adapted LLaMA, pre-trained and fine-tuned on clinical notes.
   - title: Papers # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -91,7 +59,7 @@ content:
         title: |
           Asclepius: Publicly Shareable Clinical Large Language Model Built on Synthetic Clinical Notes
         description: | 
-          Sunjun Kweon\*, Junu Kim\*, Jiyoun Kim, Sujeong Im, Eunbyeol Cho, Seongsu Bae, Jungwoo Oh, Gyubok Lee, Jong Hak Moon, Seng Chan You, Seungjin Baek, Chang Hoon Han, Yoon Bin Jung, Yohan Jo, Edward Choi
+          Sunjun Kweon\*, __Junu Kim__\*, Jiyoun Kim, Sujeong Im, Eunbyeol Cho, Seongsu Bae, Jungwoo Oh, Gyubok Lee, Jong Hak Moon, Seng Chan You, Seungjin Baek, Chang Hoon Han, Yoon Bin Jung, Yohan Jo, Edward Choi
           
           \* equal contribution
         link: https://arxiv.org/abs/2309.00237
@@ -120,8 +88,38 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
            Our study is the first approach to unify heterogeneous EHRs into a single FL framework.
-          
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: "CAMEL: Clinically Adapted Model Enhanced from LLaMA"
+        description: |
+          Sunjun Kweon\*, __Junu Kim__\*, Seongsu Bae\*\*, Eunbyeol Cho\*\*, Sujeong Im\*\*, Jiyoun Kim\*\*, Gyubok Lee\*\*, JongHak Moon\*\*, JeongWoo Oh\*\*, Edward Choi
 
+          \* equal contribution
+
+          \*\* alphabetical order
+
+        link: https://starmpcc.github.io/CAMEL/
+        # link_text: Project Website
+        additional_links:
+          - title:  CAMEL
+            icon: fab fa-github
+            url: https://github.com/starmpcc/CAMEL
+          - title:  CAMEL Demo
+            url: https://starmpcc-camel-demo-demo-i7ajms.streamlit.app/
+            icon: fas fa-laptop
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+           Clinically Adapted LLaMA, pre-trained and fine-tuned on clinical notes.         
+  - title: Lecture
+    layout: list
+    content:
+      - layout: top-middle
+        title: "KoSAIM 2023 Summer School Hands-on Session: Transformer"
+        link: https://github.com/starmpcc/KoSAIM2023-Transformer
   # - title: Experience # Title for the section
   #   layout: list # Type of content section (list/text)
   #   content:
